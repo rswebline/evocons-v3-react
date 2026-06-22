@@ -1,3 +1,5 @@
+import Button from '../ui/Button';
+
 function HeroSection() {
   return (
     <section className="hero">
@@ -12,6 +14,10 @@ function HeroSection() {
           Evocons accompagna aziende e professionisti nei percorsi di trasformazione
           digitale, con un approccio concreto, sostenibile e orientato ai risultati.
         </p>
+
+        <Button href="/contatti">
+          Contattaci
+        </Button>
       </div>
     </section>
   );

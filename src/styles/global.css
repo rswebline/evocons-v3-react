@@ -84,3 +84,25 @@ ul {
   text-align: center;
   font-size: 0.9rem;
 }
+
+.btn {
+  display: inline-block;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.btn--primary {
+  background: #2563eb;
+  color: white;
+}
+
+.btn--primary:hover {
+  opacity: 0.9;
+}
+
+.btn--secondary {
+  border: 1px solid #2563eb;
+  color: #2563eb;
+}
