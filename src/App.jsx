@@ -1,9 +1,11 @@
+import MainLayout from './components/layout/MainLayout';
+import Home from './pages/Home';
+
 function App() {
   return (
-    <>
-      <h1>Evocons v3</h1>
-      <p>React + Vite</p>
-    </>
+    <MainLayout>
+      <Home />
+    </MainLayout>
   );
 }
 
