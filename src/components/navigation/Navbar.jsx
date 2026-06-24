@@ -1,9 +1,10 @@
-import { navigationLinks } from '../../data/navigation';
+import { navigationLinks } from "../../data/navigation";
+import Button from "../ui/Button";
 
 function Navbar() {
   return (
-    <nav className="navbar" aria-label="Navigazione principale">
-      <a href="/" className="navbar__brand">
+    <nav className="navbar">
+      <a className="navbar__brand" href="/">
         Evocons
       </a>
 
@@ -14,6 +15,10 @@ function Navbar() {
           </li>
         ))}
       </ul>
+
+      <div className="navbar__cta">
+        <Button href="/contatti">Parla con un consulente</Button>
+      </div>
     </nav>
   );
 }

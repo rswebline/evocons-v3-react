@@ -1,23 +1,31 @@
-import Button from '../ui/Button';
+import Button from "../ui/Button";
 
 function HeroSection() {
   return (
-    <section className="hero">
-      <div className="container">
-        <p className="eyebrow">Consulenza, formazione e innovazione digitale</p>
+    <section className="hero hero--image">
+      <div className="hero__overlay"></div>
 
-        <h1>
-          Evolviamo competenze, processi e tecnologie per far crescere le imprese.
-        </h1>
+      <div className="container hero__inner">
+        <p className="hero__eyebrow">Evocons per le PMI</p>
 
-        <p>
-          Evocons accompagna aziende e professionisti nei percorsi di trasformazione
-          digitale, con un approccio concreto, sostenibile e orientato ai risultati.
+        <h1>Cybersecurity, AI e Data per PMI.</h1>
+
+        <p className="hero__text">
+          Soluzioni pratiche, misurabili e sicure per crescere nel digitale
+          senza perdere controllo, tempo o fiducia.
         </p>
 
-        <Button href="/contatti">
-          Contattaci
-        </Button>
+        <div className="hero__actions">
+          <Button href="/servizi">Scopri i servizi</Button>
+          <Button href="/contatti" variant="secondary">
+            Parla con un consulente
+          </Button>
+        </div>
+
+        <p className="hero__keywords">
+          protezione <span>•</span> innovazione <span>•</span> misurabilità{" "}
+          <span>•</span> fiducia
+        </p>
       </div>
     </section>
   );
