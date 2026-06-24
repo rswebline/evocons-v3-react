@@ -85,6 +85,7 @@ ul {
   font-size: 0.9rem;
 }
 
+/* Buttons */
 .btn {
   display: inline-block;
   padding: 14px 24px;
@@ -105,4 +106,148 @@ ul {
 .btn--secondary {
   border: 1px solid #2563eb;
   color: #2563eb;
+}
+
+/* Sections and Cards */
+.container {
+  width: min(1200px, 90%);
+  margin: 0 auto;
+}
+
+.services-overview {
+  padding: 6rem 0;
+}
+
+.section-header {
+  max-width: 700px;
+  margin-bottom: 3rem;
+}
+
+.section-header__eyebrow {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.services-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  );
+}
+
+.service-card {
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+}
+
+.service-card h3 {
+  margin-bottom: 1rem;
+}
+
+.service-card p {
+  margin-bottom: 1.5rem;
+}
+
+.service-card__link {
+  font-weight: 600;
+}
+
+
+.feature-section {
+  padding: 6rem 0;
+  background: #f8fafc;
+}
+
+.feature-section__grid {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.feature-list {
+  margin: 2rem 0;
+  padding-left: 1.2rem;
+}
+
+.feature-list li {
+  margin-bottom: 0.75rem;
+}
+
+.feature-section__panel {
+  padding: 2.5rem;
+  border-radius: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+}
+
+.feature-section__panel span {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.feature-section__panel h3 {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .feature-section__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.method-section {
+  padding: 6rem 0;
+  background: #ffffff;
+}
+
+.method-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.method-card {
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  background: #f8fafc;
+}
+
+.method-card h3 {
+  margin-bottom: 1rem;
+}
+
+.cta-section {
+  padding: 8rem 0;
+  text-align: center;
+  background: #0f172a;
+  color: white;
+}
+
+.cta-section__content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-section h2 {
+  margin-bottom: 1.5rem;
+}
+
+.cta-section p {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
 }
