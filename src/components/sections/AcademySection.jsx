@@ -1,12 +1,13 @@
 import SectionHeader from "../ui/SectionHeader";
 import Button from "../ui/Button";
+import FeaturePanel from "../ui/FeaturePanel";
 import { homeContent } from "../../data/homeContent";
 
 function AcademySection() {
   const content = homeContent.academySection;
 
   return (
-    <section className="feature-section feature-section--academy">
+    <section className="feature-section feature-section--academy" id="formazione">
       <div className="container feature-section__grid">
         <div className="feature-section__content">
           <SectionHeader
@@ -21,16 +22,15 @@ function AcademySection() {
             ))}
           </ul>
 
-          <Button href={content.cta.href}>
-            {content.cta.label}
-          </Button>
+          <Button href={content.cta.href}>{content.cta.label}</Button>
         </div>
 
-        <div className="feature-section__panel">
-          <span>{content.panel.number}</span>
-          <h3>{content.panel.title}</h3>
-          <p>{content.panel.text}</p>
-        </div>
+        <FeaturePanel
+          number={content.panel.number}
+          title={content.panel.title}
+          text={content.panel.text}
+          tags={["Workshop", "Academy", "Learning Journey"]}
+        />
       </div>
     </section>
   );

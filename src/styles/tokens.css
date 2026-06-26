@@ -1,0 +1,60 @@
+:root {
+
+  /* Brand */
+
+  --color-brand: #19c8d2;
+  --color-brand-hover: #15b3bc;
+
+  /* Action */
+
+  --color-action: #0b74c9;
+  --color-action-hover: #095fa5;
+
+  /* Neutral */
+
+  --color-dark: #101828;
+  --color-dark-soft: #1f2937;
+
+  --color-light: #f8fafc;
+  --color-white: #ffffff;
+
+  /* Text */
+
+  --text-primary: #172033;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+
+  /* Border */
+
+  --border-light: #dce5f0;
+
+  /* Radius */
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  /* Shadow */
+
+  --shadow-sm: 0 10px 30px rgba(15,23,42,.05);
+  --shadow-md: 0 18px 45px rgba(15,23,42,.08);
+  --shadow-lg: 0 28px 70px rgba(15,23,42,.12);
+
+  /* Spacing */
+
+  --space-xs: .5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-xxl: 6rem;
+
+  /* Width */
+
+  --container-width: 1200px;
+
+  /* Animation */
+
+  --transition: .25s ease;
+}

@@ -1,12 +1,13 @@
 import SectionHeader from "../ui/SectionHeader";
 import Button from "../ui/Button";
+import FeaturePanel from "../ui/FeaturePanel";
 import { homeContent } from "../../data/homeContent";
 
 function AISection() {
   const content = homeContent.aiSection;
 
   return (
-    <section className="feature-section feature-section--ai">
+    <section className="feature-section feature-section--ai" id="ai-data-analytics">
       <div className="container feature-section__grid">
         <div className="feature-section__content">
           <SectionHeader
@@ -21,16 +22,15 @@ function AISection() {
             ))}
           </ul>
 
-          <Button href={content.cta.href}>
-            {content.cta.label}
-          </Button>
+          <Button href={content.cta.href}>{content.cta.label}</Button>
         </div>
 
-        <div className="feature-section__panel">
-          <span>{content.panel.number}</span>
-          <h3>{content.panel.title}</h3>
-          <p>{content.panel.text}</p>
-        </div>
+        <FeaturePanel
+          number={content.panel.number}
+          title={content.panel.title}
+          text={content.panel.text}
+          tags={["AI Readiness", "Data Strategy", "Business Value"]}
+        />
       </div>
     </section>
   );
