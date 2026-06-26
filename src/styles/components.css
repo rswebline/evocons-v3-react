@@ -1,9 +1,20 @@
 .btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
   padding: 14px 24px;
+  border: 1px solid transparent;
   border-radius: var(--radius-sm);
   font-weight: 700;
-  transition: all var(--transition);
+  line-height: 1.2;
+  text-align: center;
+  transition:
+    background-color var(--transition),
+    color var(--transition),
+    border-color var(--transition),
+    transform var(--transition),
+    box-shadow var(--transition);
 }
 
 .btn--primary {
@@ -17,10 +28,27 @@
 
 .btn--secondary {
   background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-color: rgba(255, 255, 255, 0.35);
   color: var(--color-white);
   backdrop-filter: blur(8px);
 }
+
+.btn--secondary:hover {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.btn:focus-visible {
+  outline: 3px solid var(--color-action);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn {
+    transition: none;
+  }
+}
+
 
 .section-header {
   max-width: 760px;
