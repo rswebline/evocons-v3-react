@@ -1,0 +1,23 @@
+:root {
+
+  /* Brand */
+
+  --color-primary: #071326;
+  --color-primary-light: #0d1f36;
+
+  --color-accent: #00c2ff;
+
+  --color-secondary: #f5c400;
+
+  /* Testi */
+
+  --color-text: #1b2430;
+  --color-text-light: #6b7280;
+  --color-white: #ffffff;
+
+  /* Background */
+
+  --color-background: #ffffff;
+  --color-surface: #f7f8fa;
+
+}
