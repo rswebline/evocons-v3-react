@@ -7,6 +7,7 @@ import AIDataAnalytics from "./pages/AIDataAnalytics";
 import Cybersecurity from "./pages/Cybersecurity";
 import Academy from "./pages/Academy";
 import Contacts from "./pages/Contacts";
+import DesignSystem from "./pages/DesignSystem";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/cybersecurity" element={<Cybersecurity />} />
         <Route path="/formazione" element={<Academy />} />
         <Route path="/contatti" element={<Contacts />} />
+        <Route path="/design-system" element={<DesignSystem />} />
       </Routes>
     </MainLayout>
   );

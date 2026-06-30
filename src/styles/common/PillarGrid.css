@@ -1,0 +1,52 @@
+.pillar-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  border-top: 1px solid rgba(7, 19, 38, 0.12);
+  border-left: 1px solid rgba(7, 19, 38, 0.12);
+  background: #ffffff;
+}
+
+.pillar-card {
+  min-height: 300px;
+  padding: 52px 44px;
+  background: #ffffff;
+  border-right: 1px solid rgba(7, 19, 38, 0.12);
+  border-bottom: 1px solid rgba(7, 19, 38, 0.12);
+}
+
+.pillar-card__value {
+  margin: 0 0 36px;
+  color: var(--color-accent);
+  font-size: 0.86rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.pillar-card h3 {
+  margin: 0;
+  color: #071326;
+  font-size: 1.45rem;
+  line-height: 1.2;
+}
+
+.pillar-card p:not(.pillar-card__value) {
+  margin: 20px 0 0;
+  color: #374151;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+@media (max-width: 900px) {
+  .pillar-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .pillar-grid {
+    grid-template-columns: 1fr;
+  }
+}

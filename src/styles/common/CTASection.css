@@ -1,0 +1,50 @@
+.cta-section {
+  background: #071326;
+  color: #ffffff;
+  padding: 120px 0;
+}
+
+.cta-section__inner {
+  max-width: 900px;
+}
+
+.cta-section__eyebrow {
+  margin: 0 0 16px;
+  color: var(--color-accent);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.cta-section h2 {
+  margin: 0;
+  font-size: clamp(2.4rem, 5vw, 4.4rem);
+  line-height: 1.08;
+}
+
+.cta-section p:not(.cta-section__eyebrow) {
+  margin: 28px 0 0;
+  max-width: 720px;
+  color: #dbe5f1;
+  font-size: 1.18rem;
+  line-height: 1.8;
+}
+
+.cta-section__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 42px;
+  padding: 16px 28px;
+  border-radius: 10px;
+  background: #1686d9;
+  color: #ffffff;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.cta-section__button:hover {
+  background: #ffffff;
+  color: #071326;
+}

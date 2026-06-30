@@ -1,0 +1,9 @@
+.design-system-block {
+  background: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.design-system-block--light {
+  background: #f7f8fa;
+}
