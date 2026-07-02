@@ -7,41 +7,43 @@ Versione: 0.1 (Documento vivo) Data: 2026-07-02
 > corrente. Ogni release aggiorna percentuali, note e decisioni. Nessuna
 > informazione viene eliminata: si evolve.
 
-------------------------------------------------------------------------
+---
 
 # Filosofia del progetto
 
 ## Principi
 
--   Framework stabile prima dell'ottimizzazione.
--   Approccio Top-Down: prima il sistema, poi il dettaglio.
--   Ogni pagina deve essere **completa** prima di essere **perfetta**.
--   Le ottimizzazioni sono guidate anche dai dati (GA4, Search Console,
-    Clarity).
--   Ogni nuovo elemento nasce dal Design System.
--   Evocons vende **percorsi**, non prodotti.
+- Framework stabile prima dell'ottimizzazione.
+- Approccio Top-Down: prima il sistema, poi il dettaglio.
+- Ogni pagina deve essere **completa** prima di essere **perfetta**.
+- Le ottimizzazioni sono guidate anche dai dati (GA4, Search Console,
+  Clarity).
+- Ogni nuovo elemento nasce dal Design System.
+- Evocons vende **percorsi**, non prodotti.
 
-------------------------------------------------------------------------
+---
 
 # Roadmap
 
-  Area                        Stato
-  ------------------------- -------
-  Design System                 85%
-  Home                          95%
-  Chi siamo                     95%
-  Servizi                       80%
-  AI & Data Analytics           80%
-  Cybersecurity                 10%
-  Academy                       10%
-  Insight / Knowledge Hub       15%
-  Contatti                       5%
-  Footer definitivo             30%
-  SEO tecnica                   10%
-  Analytics                      5%
-  Deploy V1                      0%
+Area Stato
 
-------------------------------------------------------------------------
+---
+
+Design System 85%
+Home 95%
+Chi siamo 95%
+Servizi 80%
+AI & Data Analytics 80%
+Cybersecurity 10%
+Academy 10%
+Insight / Knowledge Hub 15%
+Contatti 5%
+Footer definitivo 30%
+SEO tecnica 10%
+Analytics 5%
+Deploy V1 0%
+
+---
 
 # Stato dettagliato
 
@@ -49,244 +51,244 @@ Versione: 0.1 (Documento vivo) Data: 2026-07-02
 
 ### Completato
 
--   Layout React consolidato.
--   Routing.
--   Hero.
--   SectionIntro.
--   SectionHeader.
--   Timeline.
--   FeatureGrid.
--   PillarGrid.
--   CTASection.
--   ImageText (Light / Immersive).
--   ImageCard Preview.
--   ServiceFlow.
--   QuotePanel.
--   KnowledgeHub.
--   Data driven (`serviceAreas.js`).
+- Layout React consolidato.
+- Routing.
+- Hero.
+- SectionIntro.
+- SectionHeader.
+- Timeline.
+- FeatureGrid.
+- PillarGrid.
+- CTASection.
+- ImageText (Light / Immersive).
+- ImageCard Preview.
+- ServiceFlow.
+- QuotePanel.
+- KnowledgeHub.
+- Data driven (`serviceAreas.js`).
 
 ### Da migliorare
 
--   Varianti grafiche dei pattern.
--   Responsive fine.
--   Microanimazioni.
+- Varianti grafiche dei pattern.
+- Responsive fine.
+- Microanimazioni.
 
 ### Da aggiungere
 
--   Documentazione con esempi.
--   Libreria screenshot.
+- Documentazione con esempi.
+- Libreria screenshot.
 
-------------------------------------------------------------------------
+---
 
 ## Home (95%)
 
 ### Completato
 
--   Architettura.
--   Hero.
--   Servizi.
--   AI.
--   Cybersecurity.
--   Academy.
--   Metodo.
--   CTA.
--   Footer.
+- Architettura.
+- Hero.
+- Servizi.
+- AI.
+- Cybersecurity.
+- Academy.
+- Metodo.
+- CTA.
+- Footer.
 
 ### Da migliorare
 
--   Copy.
--   Immagini definitive.
--   CTA.
+- Copy.
+- Immagini definitive.
+- CTA.
 
 ### Da aggiungere
 
--   Collegamenti agli Insight.
+- Collegamenti agli Insight.
 
-------------------------------------------------------------------------
+---
 
 ## Chi siamo (95%)
 
 ### Completato
 
--   Hero.
--   Intro.
--   Timeline.
--   Metodo.
--   Valori.
--   Preview aree.
--   CTA.
+- Hero.
+- Intro.
+- Timeline.
+- Metodo.
+- Valori.
+- Preview aree.
+- CTA.
 
 ### Da migliorare
 
--   Iconografia.
--   Ritmo verticale.
--   Testi.
+- Iconografia.
+- Ritmo verticale.
+- Testi.
 
 ### Da aggiungere
 
--   Eventuale video.
--   Metriche.
+- Eventuale video.
+- Metriche.
 
-------------------------------------------------------------------------
+---
 
 ## Servizi (80%)
 
 ### Completato
 
--   Hero.
--   Intro.
--   Navigation.
--   Preview aree.
--   Service Flow.
--   CTA.
+- Hero.
+- Intro.
+- Navigation.
+- Preview aree.
+- Service Flow.
+- CTA.
 
 ### Da migliorare
 
--   Narrazione.
--   Collegamenti tra le aree.
+- Narrazione.
+- Collegamenti tra le aree.
 
 ### Da aggiungere
 
--   Evidenze.
--   Case Study.
+- Evidenze.
+- Case Study.
 
-------------------------------------------------------------------------
+---
 
 ## AI & Data Analytics (80%)
 
 ### Completato
 
--   Hero.
--   Intro.
--   ImageText.
--   QuotePanel.
--   FeatureGrid.
--   ServiceFlow.
--   KnowledgeHub.
--   CTA.
+- Hero.
+- Intro.
+- ImageText.
+- QuotePanel.
+- FeatureGrid.
+- ServiceFlow.
+- KnowledgeHub.
+- CTA.
 
 ### Da migliorare
 
--   Sequenza narrativa.
--   Contenuti del Knowledge Hub.
--   Immagini definitive.
+- Sequenza narrativa.
+- Contenuti del Knowledge Hub.
+- Immagini definitive.
 
 ### Da aggiungere
 
--   Download.
--   Insight reali.
--   Case Study.
+- Download.
+- Insight reali.
+- Case Study.
 
-------------------------------------------------------------------------
+---
 
 ## Cybersecurity (10%)
 
 ### Completato
 
--   Architettura definita.
+- Architettura definita.
 
 ### Da migliorare
 
--   Tutto.
+- Tutto.
 
 ### Da aggiungere
 
--   Contenuti.
+- Contenuti.
 
-------------------------------------------------------------------------
+---
 
 ## Academy (10%)
 
 ### Completato
 
--   Architettura definita.
+- Architettura definita.
 
 ### Da migliorare
 
--   Tutto.
+- Tutto.
 
 ### Da aggiungere
 
--   Catalogo corsi.
--   Workshop.
--   Academy.
+- Catalogo corsi.
+- Workshop.
+- Academy.
 
-------------------------------------------------------------------------
+---
 
 ## Insight / Knowledge Hub (15%)
 
 ### Completato
 
--   Pattern KnowledgeHub.
+- Pattern KnowledgeHub.
 
 ### Da migliorare
 
--   Tassonomia.
--   UX.
+- Tassonomia.
+- UX.
 
 ### Da aggiungere
 
--   CMS.
--   Ricerca.
--   Filtri.
+- CMS.
+- Ricerca.
+- Filtri.
 
-------------------------------------------------------------------------
+---
 
 ## Contatti (5%)
 
 ### Completato
 
--   Routing.
+- Routing.
 
 ### Da migliorare
 
--   Tutto.
+- Tutto.
 
 ### Da aggiungere
 
--   Form.
--   Calendario.
--   Mappa.
+- Form.
+- Calendario.
+- Mappa.
 
-------------------------------------------------------------------------
+---
 
 ## SEO (10%)
 
 ### Completato
 
--   Struttura semantica.
+- Struttura semantica.
 
 ### Da migliorare
 
--   Meta.
--   Open Graph.
--   Sitemap.
+- Meta.
+- Open Graph.
+- Sitemap.
 
 ### Da aggiungere
 
--   Schema.org.
--   Redirect.
+- Schema.org.
+- Redirect.
 
-------------------------------------------------------------------------
+---
 
 ## Analytics (5%)
 
 ### Completato
 
--   Strategia definita.
+- Strategia definita.
 
 ### Da migliorare
 
--   Eventi.
--   KPI.
+- Eventi.
+- KPI.
 
 ### Da aggiungere
 
--   GA4.
--   Search Console.
--   Microsoft Clarity.
+- GA4.
+- Search Console.
+- Microsoft Clarity.
 
-------------------------------------------------------------------------
+---
 
 # Backlog
 
@@ -299,17 +301,17 @@ Versione: 0.1 (Documento vivo) Data: 2026-07-02
 
 ## Media priorità
 
--   SEO
--   Analytics
--   Ottimizzazione copy
+- SEO
+- Analytics
+- Ottimizzazione copy
 
 ## Bassa priorità
 
--   Microanimazioni
--   Varianti componenti
--   Raffinamenti grafici
+- Microanimazioni
+- Varianti componenti
+- Raffinamenti grafici
 
-------------------------------------------------------------------------
+---
 
 # Registro decisioni
 
@@ -321,15 +323,30 @@ Significato: Prima si completa l'intero framework del sito.
 Successivamente si avviano iterazioni di miglioramento guidate sia
 dall'esperienza sia dai dati raccolti.
 
-------------------------------------------------------------------------
+---
 
 # Registro versioni
 
 ## V0.1
 
--   Definita roadmap.
--   Definite percentuali iniziali.
--   Definito metodo di lavoro.
+- Definita roadmap.
+- Definite percentuali iniziali.
+- Definito metodo di lavoro.
 
 Le versioni successive NON sostituiranno questa sezione ma la
 estenderanno, così da mantenere lo storico dell'evoluzione del progetto.
+
+Categoria: MIGLIORIA UX
+
+Titolo:
+Navigazione nelle pagine lunghe
+
+Versione prevista:
+V2
+
+Descrizione:
+Introdurre un pulsante "Torna all'inizio" che compare dopo un certo scroll.
+Valutare, nelle pagine con contenuti molto estesi (es. Insight), una navigazione contestuale sticky o una Table of Contents.
+
+Motivazione:
+Migliorare la navigazione senza aumentare l'ingombro dell'interfaccia nella V1.

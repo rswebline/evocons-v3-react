@@ -1,24 +1,30 @@
-export const internalAreas = [
+export const serviceAreas = [
   {
+    slug: "ai-data-analytics",
     eyebrow: "AI e Data Analytics",
     title:
       "Soluzioni, formazione e consulenza per usare dati e intelligenza artificiale nei processi aziendali.",
-    image: "/images/hero/about-hero.jpg",
+    heroImage: "/images/hero/ai-hero.jpg",
+    previewImage: "/images/hero/ai-hero.jpg",
     imageAlt: "AI e trasformazione digitale",
     path: "/ai-data-analytics",
   },
   {
+    slug: "cybersecurity",
     eyebrow: "Cybersecurity",
     title: "Consapevolezza, prevenzione e gestione del rischio cyber.",
-    image: "/images/hero/about-hero.jpg",
+    heroImage: "/images/hero/cybersecurity-hero.jpg",
+    previewImage: "/images/hero/cybersecurity-hero.jpg",
     imageAlt: "Cybersecurity",
     path: "/cybersecurity",
   },
   {
+    slug: "academy",
     eyebrow: "Academy",
     title:
       "Percorsi formativi, workshop e programmi di sviluppo delle competenze.",
-    image: "/images/hero/about-hero.jpg",
+    heroImage: "/images/hero/academy-hero.jpg",
+    previewImage: "/images/hero/academy-hero.jpg",
     imageAlt: "Academy",
     path: "/formazione",
   },

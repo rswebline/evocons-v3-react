@@ -1,11 +1,19 @@
-function PillarCard({ value, title, text }) {
+import { Link } from "react-router-dom";
+
+function ImageCard({ eyebrow, title, previewImage, imageAlt = "", path }) {
   return (
-    <article className="pillar-card">
-      {value && <p className="pillar-card__value">{value}</p>}
-      <h3>{title}</h3>
-      <p>{text}</p>
-    </article>
+    <Link to={path} className="image-card">
+      <div className="image-card__media">
+        <img src={previewImage} alt={imageAlt} />
+      </div>
+
+      <div className="image-card__content">
+        {eyebrow && <p>{eyebrow}</p>}
+        <h3>{title}</h3>
+        <span aria-hidden="true">→</span>
+      </div>
+    </Link>
   );
 }
 
-export default PillarCard;
+export default ImageCard;

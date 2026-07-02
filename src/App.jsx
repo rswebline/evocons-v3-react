@@ -8,10 +8,13 @@ import Cybersecurity from "./pages/Cybersecurity";
 import Academy from "./pages/Academy";
 import Contacts from "./pages/Contacts";
 import DesignSystem from "./pages/DesignSystem";
+import Insight from "./pages/Insight";
+import ScrollToHash from "./components/common/ScrollToHash";
 
 function App() {
   return (
     <MainLayout>
+      <ScrollToHash />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/chi-siamo" element={<About />} />
@@ -21,6 +24,7 @@ function App() {
         <Route path="/formazione" element={<Academy />} />
         <Route path="/contatti" element={<Contacts />} />
         <Route path="/design-system" element={<DesignSystem />} />
+        <Route path="/insight" element={<Insight />} />
       </Routes>
     </MainLayout>
   );

@@ -27,10 +27,11 @@ export const aboutPage = {
     ],
   },
     intro: {
-    title: "La nostra storia",
-    text:
-      "Evocons nasce dall’evoluzione di esperienze maturate nello sviluppo software, nella consulenza, nella formazione e nella trasformazione digitale. Un percorso che unisce competenze tecniche, visione organizzativa e attenzione alle persone.",
-  },
+      eyebrow: "Chi siamo",
+      title: "La nostra storia",
+      text:
+        "Evocons nasce dall’evoluzione di esperienze maturate nello sviluppo software, nella consulenza, nella formazione e nella trasformazione digitale. Un percorso che unisce competenze tecniche, visione organizzativa e attenzione alle persone.",
+    },
     timelineSection: {
     eyebrow: "Il nostro percorso",
     title: "Una storia costruita nel tempo",

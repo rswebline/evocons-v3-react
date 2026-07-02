@@ -1,0 +1,41 @@
+export const insightPage = {
+  hero: {
+    eyebrow: "KNOWLEDGE HUB",
+    title: "Conoscenza che diventa valore.",
+    subtitle:
+      "Uno spazio dedicato ad approfondimenti, casi di studio e riflessioni sulla trasformazione digitale, sull'intelligenza artificiale, sulla cybersecurity e sullo sviluppo delle competenze.",
+    image: "/images/hero/insight-hero.jpg",
+    height: "medium",
+  },
+
+  navigation: {
+    currentLabel: "Insight",
+    items: [
+      { label: "Servizi", path: "/servizi" },
+      { label: "AI e Data Analytics", path: "/ai-data-analytics" },
+      { label: "Academy", path: "/formazione" },
+    ],
+  },
+
+  intro: {
+    eyebrow: "COMING SOON",
+    title: "Stiamo costruendo il Knowledge Hub di Evocons.",
+    text:
+      "Nei prossimi giorni inizieremo a pubblicare articoli, guide, casi di studio e strumenti operativi per accompagnare imprese e professionisti nei percorsi di trasformazione digitale.",
+  },
+
+  quote: {
+    quote:
+      "La conoscenza\nha valore\nsolo quando\nviene condivisa.",
+    author: "EVOCONS VIEW",
+  },
+
+  cta: {
+    eyebrow: "NEL FRATTEMPO",
+    title: "Scopri i nostri servizi.",
+    text:
+      "AI, Cybersecurity, Academy e consulenza per accompagnare persone e organizzazioni nel cambiamento.",
+    buttonLabel: "Vai ai servizi",
+    buttonPath: "/servizi",
+  },
+};

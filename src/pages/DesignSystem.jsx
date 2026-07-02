@@ -7,7 +7,8 @@ import ImageText from "../components/common/ImageText";
 import CTASection from "../components/common/CTASection";
 import { aboutPage } from "../data/pages/about";
 import ImageCardGrid from "../components/common/ImageCardGrid";
-import { internalAreas } from "../data/internalAreas";
+import { servicesPage } from "../data/pages/services";
+
 
 function DesignSystem() {
   return (
@@ -101,7 +102,7 @@ function DesignSystem() {
       subtitle="Pattern per collegare aree, servizi, percorsi e contenuti del Knowledge Hub."
     />
 
-    <ImageCardGrid items={internalAreas} />
+    <ImageCardGrid items={servicesPage.areas} />
   </div>
 </section>
 

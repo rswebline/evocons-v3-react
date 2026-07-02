@@ -1,0 +1,53 @@
+.quote-panel {
+  background: #071326;
+  color: #ffffff;
+  padding: 120px 0;
+}
+
+.quote-panel__inner {
+  max-width: 980px;
+}
+
+.quote-panel blockquote {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  font-weight: 800;
+  line-height: 1.08;
+}
+
+.quote-panel blockquote span {
+  display: block;
+}
+
+.quote-panel p {
+  margin: 36px 0 0;
+  color: var(--color-accent);
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+/* =====================================================
+   LIGHT
+===================================================== */
+
+.quote-panel--light{
+    padding:80px 0;
+    background:#ffffff;
+    color:#071326;
+}
+
+
+.quote-panel--light .quote-panel__inner{
+    max-width:960px;
+}
+
+.quote-panel--light blockquote{
+    color:#071326;
+}
+
+.quote-panel--light p{
+    color:var(--color-accent);
+}

@@ -8,7 +8,8 @@ import PillarGrid from "../components/common/PillarGrid";
 import CTASection from "../components/common/CTASection";
 import ImageText from "../components/common/ImageText";
 import ImageCardGrid from "../components/common/ImageCardGrid";
-import { internalAreas } from "../data/internalAreas";
+import { servicesPage } from "../data/pages/services";
+import SectionIntro from "../components/common/SectionIntro";
 
 function About() {
   return (
@@ -20,17 +21,7 @@ function About() {
         items={aboutPage.navigation.items}
       />
 
-      <section className="section about-intro">
-        <div className="container about-intro__grid">
-          <div>
-            <h2>{aboutPage.intro.title}</h2>
-          </div>
-
-          <div>
-            <p>{aboutPage.intro.text}</p>
-          </div>
-        </div>
-      </section>
+      <SectionIntro {...aboutPage.intro} />
 
       <section className="section about-timeline">
         <div className="container">
@@ -74,7 +65,7 @@ function About() {
             subtitle="AI, Cybersecurity e Academy sono le aree attraverso cui Evocons aiuta imprese e professionisti a comprendere, progettare e governare il cambiamento."
           />
 
-          <ImageCardGrid items={internalAreas} />
+          <ImageCardGrid items={servicesPage.areas} />
         </div>
       </section>
 
