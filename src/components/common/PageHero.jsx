@@ -1,7 +1,14 @@
-function PageHero({ eyebrow, title, subtitle, image, height = "medium" }) {
+function PageHero({
+  eyebrow,
+  title,
+  subtitle,
+  image,
+  height = "medium",
+  className = "",
+}) {
   return (
     <section
-      className={`page-hero page-hero--${height}`}
+      className={`page-hero page-hero--${height} ${className}`}
       style={{
         backgroundImage: `
           linear-gradient(

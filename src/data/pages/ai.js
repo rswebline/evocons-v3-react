@@ -9,6 +9,7 @@ export const aiPage = {
     "Soluzioni, formazione e consulenza per usare dati e AI nei processi aziendali con metodo, consapevolezza e controllo.",
   image: aiArea.heroImage,
   height: "medium",
+  className: "page-hero--ai",
 },
 
   navigation: {
