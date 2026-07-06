@@ -1,0 +1,31 @@
+# Evocons
+
+> Evolvere organizzazioni e persone attraverso AI, Cybersecurity, Academy e Consulenza.
+
+## About
+
+Evocons accompagna imprese, enti e professionisti nella trasformazione organizzativa attraverso consulenza, formazione e innovazione.
+
+L'approccio Evocons integra:
+
+- Intelligenza Artificiale
+- Cybersecurity
+- Data Analytics
+- Academy
+- Business Consulting
+
+L'obiettivo non è introdurre tecnologia, ma sviluppare competenze, migliorare processi e rendere le organizzazioni più autonome e consapevoli.
+
+## Main Pages
+
+- https://evocons.it/
+- https://evocons.it/servizi
+- https://evocons.it/ai-data-analytics
+- https://evocons.it/cybersecurity
+- https://evocons.it/formazione
+- https://evocons.it/chi-siamo
+- https://evocons.it/contatti
+
+## Contact
+
+https://evocons.it/contatti

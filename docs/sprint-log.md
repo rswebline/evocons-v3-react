@@ -112,3 +112,9 @@ Le criticità emerse riguardano esclusivamente:
 - Ottimizzazioni grafiche secondarie
 
 Nessuna modifica strutturale è stata necessaria.
+
+## TODO
+
+- Ricreare marchio Evocons in SVG vettoriale
+- Rigenerare favicon e icone da master SVG
+- Creare immagine Open Graph definitiva
