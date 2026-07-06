@@ -3,7 +3,7 @@ export const homeContent = {
     eyebrow: "AI & DATA ANALYTICS",
     title: "Trasforma dati e AI in decisioni più efficaci",
     description:
-      "Individua dove l’intelligenza artificiale può generare valore reale per la tua organizzazione: processi da migliorare, dati da valorizzare, automazioni da introdurre e competenze da sviluppare.",
+  "Prima della tecnologia vengono obiettivi, persone, processi e dati. Da qui nasce una strategia AI capace di creare valore reale per la tua organizzazione.",
     items: [
       "Individua casi d’uso AI ad alto impatto",
       "Valorizza dati e informazioni a supporto delle decisioni",
@@ -15,9 +15,9 @@ export const homeContent = {
     },
     panel: {
       number: "01",
-      title: "AI Strategy",
+      title: "Persone + AI",
       text:
-        "Prima degli strumenti viene la direzione: obiettivi, processi, persone, dati e opportunità concrete di miglioramento.",
+  "Dove molti vedono una scelta tra persone e Intelligenza Artificiale, noi vediamo una squadra che crea valore insieme.",
     },
   },
   cybersecuritySection: {
@@ -38,7 +38,7 @@ export const homeContent = {
     number: "02",
     title: "Security Awareness",
     text:
-      "La tecnologia è solo una parte della sicurezza: comportamenti, processi e decisioni quotidiane incidono sulla capacità di prevenire e gestire il rischio.",
+  "Le competenze diventano patrimonio dell'organizzazione quando teoria, esperienza e applicazione si integrano nel lavoro quotidiano.",
   },
 },
 academySection: {
@@ -66,7 +66,7 @@ methodSection: {
   eyebrow: "APPROCCIO",
   title: "Dalla strategia all'azione, un passo alla volta",
   description:
-    "Ogni organizzazione ha esigenze, priorità e livelli di maturità differenti. Per questo ogni percorso parte dall'ascolto e si sviluppa attraverso obiettivi concreti e misurabili.",
+  "Ogni percorso parte dall'ascolto, dalla consapevolezza della situazione attuale e dalla definizione di obiettivi concreti. Da lì costruiamo un percorso solido, misurabile e sostenibile.",
   steps: [
     {
       title: "Comprendere",
@@ -92,11 +92,11 @@ methodSection: {
 },
 ctaSection: {
   title:
-    "Vuoi capire quale può essere il prossimo passo per la tua organizzazione?",
+    "Ogni trasformazione inizia da una conversazione.",
   description:
-    "Che si tratti di innovazione, intelligenza artificiale, cybersecurity o sviluppo delle competenze, ogni percorso inizia da una conversazione.",
+    "Confrontiamoci sui tuoi obiettivi, sulle priorità della tua organizzazione e sulle opportunità che possono generare valore.",
   primaryButton: {
-    label: "Parliamone",
+    label: "Parla con un consulente",
     href: "/contatti",
   },
 },

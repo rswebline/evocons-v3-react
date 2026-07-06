@@ -1,16 +1,18 @@
 import { serviceAreas } from "../serviceAreas";
+
 const aiArea = serviceAreas.find((area) => area.slug === "ai-data-analytics");
 
 export const aiPage = {
   hero: {
-  eyebrow: aiArea.eyebrow,
-  title: "Dati e intelligenza artificiale per decidere meglio",
-  subtitle:
-    "Soluzioni, formazione e consulenza per usare dati e AI nei processi aziendali con metodo, consapevolezza e controllo.",
-  image: aiArea.heroImage,
-  height: "medium",
-  className: "page-hero--ai",
-},
+    eyebrow: aiArea.eyebrow,
+    title:
+      "L'Intelligenza Artificiale sta cambiando il mercato. Ogni organizzazione esplora il proprio modo di evolvere.",
+    subtitle:
+      "Alcune sperimentano. Altre osservano. Altre hanno già trasformato le prime esperienze in un percorso. Non esiste una posizione migliore delle altre. Esiste la consapevolezza della posizione in cui si trova oggi la tua organizzazione. È da lì che nasce un percorso solido verso la direzione più adatta ai tuoi obiettivi.",
+    image: aiArea.heroImage,
+    height: "medium",
+    className: "page-hero--ai",
+  },
 
   navigation: {
     currentLabel: "AI e Data Analytics",
@@ -22,129 +24,118 @@ export const aiPage = {
   },
 
   intro: {
-    eyebrow: "AI e Data Analytics",
-    title: "L’intelligenza artificiale è utile solo quando genera valore.",
+    eyebrow: "Riconoscimento",
+    title:
+      "L'Intelligenza Artificiale sta cambiando il mercato. Ogni organizzazione esplora il proprio modo di evolvere.",
     text:
-      "Evocons aiuta imprese e professionisti a comprendere dove l’AI può essere realmente utile, quali dati servono, quali processi possono essere migliorati e quali competenze devono essere sviluppate.",
+      "Alcune sperimentano. Altre osservano. Altre hanno già trasformato le prime esperienze in un percorso.\n\nNon esiste una posizione migliore delle altre. Esiste la consapevolezza della posizione in cui si trova oggi la tua organizzazione. È da lì che nasce un percorso solido verso la direzione più adatta ai tuoi obiettivi.",
   },
 
   highlight: {
-    eyebrow: "Approccio",
-    title: "Prima il problema. Poi la tecnologia.",
+    eyebrow: "Orizzonte",
+    title:
+      "Immagina un'organizzazione in cui l'AI diventa una competenza, non una dipendenza.",
     text:
-      "Partiamo dagli obiettivi aziendali, analizziamo processi e dati disponibili, individuiamo casi d’uso concreti e accompagniamo le persone nell’adozione consapevole degli strumenti.",
+      "Dove molti vedono una scelta tra persone e Intelligenza Artificiale, noi vediamo una squadra che crea valore insieme.",
     image: "/images/hero/about-hero.jpg",
-    imageAlt: "AI e Data Analytics",
-    buttonLabel: "Parliamone",
-    buttonPath: "/contatti",
+    imageAlt: "Persone e Intelligenza Artificiale",
+    buttonLabel: "Scopri il metodo",
+    buttonPath: "/chi-siamo",
   },
 
   featuresSection: {
-    eyebrow: "Cosa facciamo",
-    title: "Dall’analisi dei dati alla formazione sull’AI",
+    eyebrow: "Percorso",
+    title: "Il metodo Evocons",
     subtitle:
-      "Interveniamo dove dati, processi e competenze devono dialogare per produrre decisioni migliori.",
+      "Ogni trasformazione nasce dalla comprensione del contesto e cresce attraverso competenze, sperimentazione e autonomia.",
   },
 
   features: [
     {
-      icon: "📊",
-      title: "Data Analytics",
+      icon: "🎯",
+      title: "Comprendere",
       text:
-        "Analisi, lettura e interpretazione dei dati per supportare decisioni operative e strategiche.",
+        "Ascoltare prima di proporre. Ogni progetto parte dalla comprensione dell'organizzazione, delle persone e degli obiettivi.",
     },
     {
-      icon: "🤖",
-      title: "AI nei processi",
+      icon: "🧭",
+      title: "Individuare",
       text:
-        "Individuazione di casi d’uso concreti in cui l’AI può migliorare attività, tempi e qualità del lavoro.",
+        "Identificare obiettivi, persone, processi e opportunità in cui l'Intelligenza Artificiale può generare valore concreto.",
     },
     {
-      icon: "🎓",
-      title: "Formazione AI",
+      icon: "🧪",
+      title: "Sperimentare",
       text:
-        "Workshop e percorsi formativi per sviluppare consapevolezza, competenze e capacità di utilizzo.",
+        "Validare idee attraverso Ally, workshop e casi d'uso reali, riducendo il rischio e aumentando la consapevolezza.",
+    },
+    {
+      icon: "🚀",
+      title: "Consolidare",
+      text:
+        "Trasferire competenze e rendere l'organizzazione autonoma nell'utilizzo dell'AI e nell'evoluzione dei propri processi.",
     },
   ],
 
   flowSection: {
-    eyebrow: "Percorso",
-    title: "Come introduciamo l’AI",
+    eyebrow: "Il percorso",
+    title: "Dalla comprensione all'autonomia",
     subtitle:
-      "Un percorso progressivo per evitare sperimentazioni isolate e costruire valore reale.",
+      "Un percorso progressivo che accompagna l'organizzazione nell'adozione consapevole dell'Intelligenza Artificiale.",
   },
 
   flow: [
     {
-      title: "Comprensione",
-      text: "Analizziamo obiettivi, processi e bisogni reali.",
+      title: "Comprendere",
+      text: "Ascoltare prima di proporre.",
     },
     {
-      title: "Dati",
-      text: "Verifichiamo dati disponibili, qualità e possibilità di utilizzo.",
+      title: "Individuare",
+      text: "Obiettivi, persone, processi e opportunità.",
     },
     {
-      title: "Casi d’uso",
-      text: "Individuiamo applicazioni concrete e sostenibili.",
+      title: "Sperimentare",
+      text: "Con Ally, workshop e casi d'uso.",
     },
     {
-      title: "Sperimentazione",
-      text: "Testiamo soluzioni semplici, misurabili e governabili.",
-    },
-    {
-      title: "Adozione",
-      text: "Formiamo le persone e accompagniamo l’integrazione nei processi.",
+      title: "Consolidare",
+      text: "Trasferire competenze e rendere autonoma l'organizzazione.",
     },
   ],
-
-  cta: {
-    eyebrow: "AI e Data Analytics",
-    title: "Vuoi capire come usare l’AI nella tua organizzazione?",
-    text:
-      "Possiamo partire da un confronto per individuare opportunità, priorità e primi casi d’uso concreti.",
-    buttonLabel: "Contattaci",
-    buttonPath: "/contatti",
-  },
 
   quote: {
-  quote:
-    "L'intelligenza artificiale\nnon sostituisce la competenza.\n\nLa rende scalabile.",
-  author: "EVOCONS VIEW",
-},
-
-knowledgeHub: {
-  header: {
-    eyebrow: "Knowledge Hub",
-    title: "Approfondimenti per capire prima di scegliere",
-    subtitle:
-      "Insight, guide e percorsi per orientarsi nell’adozione dell’intelligenza artificiale e trasformare la curiosità in decisioni consapevoli.",
+    quote:
+      "L'Intelligenza Artificiale\nnon sostituisce le persone.\n\nAmplifica il valore delle organizzazioni che imparano ad evolvere.",
+    author: "EVOCONS VIEW",
   },
 
-  items: [
-    {
-      eyebrow: "Insight",
-      title:
-        "Perché l’AI non parte dagli strumenti, ma dalle domande giuste.",
-      previewImage: "/images/hero/ai-hero.jpg",
-      imageAlt: "AI e strategia",
-      path: "/ai-data-analytics",
+  knowledgeHub: {
+    header: {
+      eyebrow: "Storia",
+      title: "Ogni trasformazione nasce da una storia.",
+      subtitle:
+        "Presto racconteremo come organizzazioni diverse hanno trasformato l'AI in un'opportunità concreta di crescita.",
     },
-    {
-      eyebrow: "Guida",
-      title:
-        "Come individuare un primo caso d’uso AI sostenibile e misurabile.",
-      previewImage: "/images/hero/ai-hero.jpg",
-      imageAlt: "AI e casi d’uso",
-      path: "/ai-data-analytics",
-    },
-    {
-      eyebrow: "Percorso",
-      title:
-        "Dall’assessment alla formazione: costruire competenze AI in azienda.",
-      previewImage: "/images/hero/ai-hero.jpg",
-      imageAlt: "AI e formazione",
-      path: "/ai-data-analytics",
-    },
-  ],
-},
+
+    items: [
+      {
+        eyebrow: "Coming Soon",
+        title:
+          "Case history, workshop e percorsi di trasformazione saranno presto disponibili.",
+        previewImage: "/images/hero/ai-hero.jpg",
+        imageAlt: "Trasformazione AI",
+        path: "/ai-data-analytics",
+      },
+    ],
+  },
+
+  cta: {
+    eyebrow: "Iniziamo",
+    title:
+      "Scopri dove l'AI può creare valore nella tua organizzazione.",
+    text:
+      "Ogni percorso inizia comprendendo il punto di partenza. Insieme possiamo individuare le opportunità più adatte alla tua realtà.",
+    buttonLabel: "Parla con un consulente",
+    buttonPath: "/contatti",
+  },
 };

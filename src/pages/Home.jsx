@@ -8,15 +8,15 @@ import CtaSection from "../components/sections/CtaSection";
 
 function Home() {
   return (
-    <>
-      <HeroSection />
-      <ServicesOverview />
-      <AISection />
-      <CybersecuritySection />
-      <AcademySection />
-      <MethodSection />
-      <CtaSection />
-    </>
+<>
+  <HeroSection />
+  <ServicesOverview />
+  <AISection />
+  <MethodSection />
+  <CybersecuritySection />
+  <AcademySection />
+  <CtaSection />
+</>
   );
 }
 
