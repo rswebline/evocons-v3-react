@@ -1,22 +1,44 @@
-import HeroSection from "../components/sections/HeroSection";
-import ServicesOverview from "../components/sections/ServicesOverview";
-import AISection from "../components/sections/AISection";
-import CybersecuritySection from "../components/sections/CybersecuritySection";
-import AcademySection from "../components/sections/AcademySection";
-import MethodSection from "../components/sections/MethodSection";
-import CtaSection from "../components/sections/CtaSection";
+import PageHero from "../components/common/PageHero";
+import SectionIntro from "../components/common/SectionIntro";
+import SectionHeader from "../components/common/SectionHeader";
+import ImageText from "../components/common/ImageText";
+import ImageCardGrid from "../components/common/ImageCardGrid";
+import ServiceFlow from "../components/common/ServiceFlow";
+import CTASection from "../components/sections/CtaSection";
+
+import { homePage } from "../data/pages/home";
 
 function Home() {
   return (
-<>
-  <HeroSection />
-  <ServicesOverview />
-  <AISection />
-  <MethodSection />
-  <CybersecuritySection />
-  <AcademySection />
-  <CtaSection />
-</>
+    <>
+      <PageHero {...homePage.hero} />
+
+<section className="home-intro">
+  <SectionIntro {...homePage.intro} />
+</section>
+
+<section className="section home-highlight">
+  <div className="container">
+    <ImageText variant="immersive" {...homePage.highlight} />
+  </div>
+</section>
+
+      <section className="section home-pillars">
+        <div className="container">
+          <SectionHeader {...homePage.pillarsSection} />
+          <ImageCardGrid items={homePage.pillars} />
+        </div>
+      </section>
+
+      <section className="section home-method">
+        <div className="container">
+          <SectionHeader {...homePage.methodSection} />
+          <ServiceFlow items={homePage.method} />
+        </div>
+      </section>
+
+      <CTASection {...homePage.cta} />
+    </>
   );
 }
 

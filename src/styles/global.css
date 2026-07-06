@@ -6,6 +6,7 @@
 @import "./sections.css";
 @import "./common/PageHero.css";
 @import "./navigation/SectionNavigation.css";
+@import "./pages/home.css";
 @import "./pages/about.css";
 @import "./common/Timeline.css";
 @import "./common/SectionHeader.css";

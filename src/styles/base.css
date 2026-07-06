@@ -50,3 +50,11 @@ ul{
 
     margin-inline:auto;
 }
+
+.section {
+  padding-block: clamp(5rem, 7vw, 8rem);
+}
+
+.section:first-child {
+  padding-top: 0;
+}

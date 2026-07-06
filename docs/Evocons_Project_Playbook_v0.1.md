@@ -335,18 +335,3 @@ dall'esperienza sia dai dati raccolti.
 
 Le versioni successive NON sostituiranno questa sezione ma la
 estenderanno, così da mantenere lo storico dell'evoluzione del progetto.
-
-Categoria: MIGLIORIA UX
-
-Titolo:
-Navigazione nelle pagine lunghe
-
-Versione prevista:
-V2
-
-Descrizione:
-Introdurre un pulsante "Torna all'inizio" che compare dopo un certo scroll.
-Valutare, nelle pagine con contenuti molto estesi (es. Insight), una navigazione contestuale sticky o una Table of Contents.
-
-Motivazione:
-Migliorare la navigazione senza aumentare l'ingombro dell'interfaccia nella V1.

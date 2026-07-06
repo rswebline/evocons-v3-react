@@ -1,7 +1,7 @@
 import SectionHeader from "../ui/SectionHeader";
 import Button from "../ui/Button";
 import FeaturePanel from "../ui/FeaturePanel";
-import { homeContent } from "../../data/homeContent";
+import { homeContent } from "../../data/pages/home";
 
 function CybersecuritySection() {
   const content = homeContent.cybersecuritySection;

@@ -1,6 +1,14 @@
 import Button from "../ui/Button";
 
-function CtaSection() {
+function CtaSection({
+  eyebrow = "Inizia da una conversazione",
+  title,
+  text,
+  buttonLabel,
+  buttonPath,
+  secondaryButtonLabel,
+  secondaryButtonPath,
+}) {
   return (
     <section
       className="cta-section"
@@ -8,15 +16,14 @@ function CtaSection() {
       aria-describedby="cta-section-text"
     >
       <div className="container cta-section__content">
-        <p className="cta-section__eyebrow">Inizia da una conversazione</p>
+        {eyebrow && (
+          <p className="cta-section__eyebrow">{eyebrow}</p>
+        )}
 
-        <h2 id="cta-section-title">
-          Hai già investito in tecnologia. Ora trasformiamola in risultati.
-        </h2>
+        <h2 id="cta-section-title">{title}</h2>
 
         <p id="cta-section-text" className="cta-section__text">
-          Confrontiamoci su obiettivi, priorità e opportunità concrete per la tua
-          organizzazione.
+          {text}
         </p>
 
         <div
@@ -24,11 +31,15 @@ function CtaSection() {
           role="group"
           aria-label="Azioni principali"
         >
-          <Button href="/contatti">Parla con un consulente</Button>
-
-          <Button href="/servizi" variant="secondary">
-            Esplora i servizi
+          <Button href={buttonPath}>
+            {buttonLabel}
           </Button>
+
+          {secondaryButtonLabel && secondaryButtonPath && (
+            <Button href={secondaryButtonPath} variant="secondary">
+              {secondaryButtonLabel}
+            </Button>
+          )}
         </div>
       </div>
     </section>

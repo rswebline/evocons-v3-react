@@ -1,5 +1,5 @@
 import SectionHeader from "../ui/SectionHeader";
-import { homeContent } from "../../data/homeContent";
+import { homeContent } from "../../data/home";
 
 function MethodSection() {
   const content = homeContent.methodSection;
