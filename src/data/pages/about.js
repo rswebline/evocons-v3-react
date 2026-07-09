@@ -2,6 +2,7 @@ export const aboutPage = {
   hero: {
     eyebrow: "EVOCONS",
     title: "Una storia di evoluzione digitale",
+    mobileTitle: "Una storia che guarda al futuro",
     subtitle:
       "Evocons accompagna imprese e organizzazioni nei percorsi di trasformazione digitale, valorizzando competenze, persone e tecnologie.",
     image: "/images/hero/about-hero.jpg",

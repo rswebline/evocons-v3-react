@@ -8,6 +8,7 @@ export const cybersecurityPage = {
   hero: {
     eyebrow: cybersecurityArea.eyebrow,
     title: "Cybersecurity come cultura, processo e responsabilità.",
+    mobileTitle: "Proteggere il business digitale",
     subtitle:
       "Consapevolezza, prevenzione e gestione del rischio cyber per proteggere persone, dati, processi e continuità operativa.",
     image: cybersecurityArea.heroImage,

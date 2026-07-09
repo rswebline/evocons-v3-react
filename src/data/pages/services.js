@@ -4,6 +4,7 @@ export const servicesPage = {
   hero: {
     eyebrow: "SERVIZI",
     title: "Percorsi per governare l’evoluzione digitale",
+    mobileTitle: "Governare il cambiamento digitale",
     subtitle:
       "Evocons integra consulenza, formazione e competenze tecnologiche per aiutare imprese e professionisti a comprendere, progettare e accompagnare il cambiamento.",
     image: "/images/hero/about-hero.jpg",

@@ -6,6 +6,7 @@ export const academyPage = {
   hero: {
     eyebrow: academyArea.eyebrow,
     title: "Formazione che genera competenze, non semplici attestati.",
+    mobileTitle: "Competenze per governare l’innovazione",
     subtitle:
       "Workshop, Academy e percorsi esperienziali per accompagnare persone e organizzazioni nello sviluppo delle competenze digitali.",
     image: academyArea.heroImage,

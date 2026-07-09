@@ -18,7 +18,7 @@ function ImageText({
       }`}
     >
       <div className="image-text__media">
-        <img src={image} alt={imageAlt} />
+        <img src={image} alt={imageAlt} loading="lazy" decoding="async" />
       </div>
 
       <div className="image-text__content">

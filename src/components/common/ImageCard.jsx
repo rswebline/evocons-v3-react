@@ -4,7 +4,7 @@ function ImageCard({ eyebrow, title, previewImage, imageAlt = "", path }) {
   return (
     <Link to={path} className="image-card">
       <div className="image-card__media">
-        <img src={previewImage} alt={imageAlt} />
+        <img src={previewImage} alt={imageAlt} loading="lazy" decoding="async" />
       </div>
 
       <div className="image-card__content">

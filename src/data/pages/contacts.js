@@ -2,6 +2,7 @@ export const contactsPage = {
   hero: {
     eyebrow: "CONTATTI",
     title: "Ogni trasformazione inizia da una conversazione.",
+    mobileTitle: "Parliamo del tuo prossimo passo",
     subtitle:
       "Raccontaci il tuo contesto, le tue esigenze o semplicemente l'idea che vorresti sviluppare. Insieme capiremo il percorso più adatto.",
     image: "/images/hero/contacts-hero.jpg",

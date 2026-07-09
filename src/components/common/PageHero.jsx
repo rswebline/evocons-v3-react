@@ -1,6 +1,7 @@
 function PageHero({
   eyebrow,
   title,
+  mobileTitle,
   subtitle,
   image,
   height = "medium",
@@ -9,22 +10,18 @@ function PageHero({
   return (
     <section
       className={`page-hero page-hero--${height} ${className}`}
-      style={{
-        backgroundImage: `
-          linear-gradient(
-            90deg,
-            rgba(7, 19, 38, 0.96) 0%,
-            rgba(7, 19, 38, 0.82) 34%,
-            rgba(7, 19, 38, 0.42) 68%,
-            rgba(7, 19, 38, 0.18) 100%
-          ),
-          url(${image})
-        `,
-      }}
+      style={{ backgroundImage: `linear-gradient(90deg, rgba(5, 18, 35, 0.88), rgba(5, 18, 35, 0.35)), url(${image})` }}
     >
-      <div className="container page-hero__content">
+      <div className="page-hero__content">
         {eyebrow && <span className="page-hero__eyebrow">{eyebrow}</span>}
-        <h1>{title}</h1>
+
+        <h1>
+          <span className="page-hero__title-desktop">{title}</span>
+          {mobileTitle && (
+            <span className="page-hero__title-mobile">{mobileTitle}</span>
+          )}
+        </h1>
+
         {subtitle && <p>{subtitle}</p>}
       </div>
     </section>

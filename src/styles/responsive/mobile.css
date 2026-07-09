@@ -1,0 +1,185 @@
+.page-hero__title-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    width: min(100% - 32px, var(--container-width));
+  }
+
+  .section {
+    padding-block: clamp(3.25rem, 12vw, 4.75rem);
+  }
+
+  .navbar {
+    min-height: 68px;
+    width: min(100% - 32px, 1240px);
+  }
+
+  .navbar__brand {
+    font-size: 1.15rem;
+  }
+
+  .navbar__panel {
+    padding: 6.5rem 24px 2.5rem;
+  }
+
+  .navbar__menu {
+    gap: 0.9rem;
+    font-size: 1.1rem;
+  }
+
+  .page-hero {
+    min-height: auto;
+    background-position: center;
+  }
+
+  .page-hero--medium,
+  .page-hero--large {
+    min-height: 420px;
+  }
+
+  .page-hero__content {
+    max-width: none;
+    margin-left: 0;
+    padding-inline: 24px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  /*
+  .page-hero h1 {
+    max-width: 100%;
+    font-size: clamp(2.1rem, 11vw, 3rem);
+    line-height: 1.05;
+  }
+    */
+
+    .page-hero h1 {
+        font-size: 3rem;
+        line-height: 1.08;
+        letter-spacing: -0.03em;
+        max-width: 95%;
+    }
+
+  .page-hero p {
+    max-width: 100%;
+    margin-top: 22px;
+    font-size: 1.05rem;
+    line-height: 1.65;
+  }
+
+  .section-header {
+    max-width: 100%;
+    margin-bottom: 2.25rem;
+  }
+
+  .section-header h2 {
+    font-size: clamp(2rem, 9vw, 2.8rem);
+    line-height: 1.08;
+  }
+
+  .section-header p {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  .btn {
+    width: 100%;
+    min-height: 52px;
+    padding-inline: 20px;
+  }
+
+  .service-card,
+  .image-card,
+  .pillar-card,
+  .feature-card,
+  .quote-panel,
+  .knowledge-card {
+    min-height: auto;
+  }
+
+  .service-card,
+  .image-card,
+  .pillar-card,
+  .feature-card {
+    padding: 28px;
+  }
+
+  .image-text,
+  .service-flow,
+  .feature-grid,
+  .pillar-grid,
+  .image-card-grid,
+  .knowledge-hub {
+    gap: 24px;
+  }
+
+  .cta-section {
+    text-align: left;
+  }
+
+  .cta-section__actions {
+    width: 100%;
+  }
+
+  .page-hero__title-desktop {
+    display: none;
+  }
+
+  .page-hero__title-mobile {
+    display: inline;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: min(100% - 28px, var(--container-width));
+  }
+
+  .section {
+    padding-block: 3rem;
+  }
+
+  .navbar {
+    width: min(100% - 28px, 1240px);
+  }
+
+  .page-hero__content {
+    padding-inline: 20px;
+  }
+
+  .page-hero--medium,
+  .page-hero--large {
+    min-height: 390px;
+  }
+
+  .page-hero h1 {
+    font-size: 2.6rem;
+    }
+
+  .page-hero p {
+    font-size: 1rem;
+  }
+
+  .section-header {
+    margin-bottom: 2rem;
+  }
+
+  .service-card,
+  .image-card,
+  .pillar-card,
+  .feature-card {
+    padding: 24px;
+  }
+}

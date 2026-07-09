@@ -2,6 +2,7 @@ export const insightPage = {
   hero: {
     eyebrow: "KNOWLEDGE HUB",
     title: "Conoscenza che diventa valore.",
+    mobileTitle: "Idee per leggere il cambiamento",
     subtitle:
       "Uno spazio dedicato ad approfondimenti, casi di studio e riflessioni sulla trasformazione digitale, sull'intelligenza artificiale, sulla cybersecurity e sullo sviluppo delle competenze.",
     image: "/images/hero/insight-hero.jpg",

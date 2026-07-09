@@ -5,10 +5,9 @@ const aiArea = serviceAreas.find((area) => area.slug === "ai-data-analytics");
 export const aiPage = {
   hero: {
     eyebrow: aiArea.eyebrow,
-    title:
-      "L'Intelligenza Artificiale sta cambiando il mercato. Ogni organizzazione esplora il proprio modo di evolvere.",
-    subtitle:
-      "Alcune sperimentano. Altre osservano. Altre hanno già trasformato le prime esperienze in un percorso. Non esiste una posizione migliore delle altre. Esiste la consapevolezza della posizione in cui si trova oggi la tua organizzazione. È da lì che nasce un percorso solido verso la direzione più adatta ai tuoi obiettivi.",
+    title: "L'Intelligenza Artificiale sta cambiando il mercato. Ogni organizzazione esplora il proprio modo di evolvere.",
+    mobileTitle: "L'AI cambia il mercato. Ogni organizzazione deve trovare la propria strada.",
+    subtitle: "Alcune sperimentano. Altre osservano. Altre hanno già trasformato le prime esperienze in un percorso. Non esiste una posizione migliore delle altre.\nEsiste la consapevolezza della posizione in cui si trova oggi la tua organizzazione.\nÈ da lì che nasce un percorso solido verso la direzione più adatta ai tuoi obiettivi.",
     image: aiArea.heroImage,
     height: "medium",
     className: "page-hero--ai",

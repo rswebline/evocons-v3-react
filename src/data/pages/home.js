@@ -2,8 +2,8 @@ export const homePage = {
   hero: {
     eyebrow: "EVOCONS",
     title: "Le organizzazioni stanno cambiando più velocemente delle competenze necessarie per guidarle.",
-    subtitle:
-      "AI, cybersecurity, dati e formazione stanno ridefinendo il modo di creare valore. La vera sfida non è adottare nuove tecnologie, ma aiutare persone, processi e competenze a evolvere insieme.",
+    mobileTitle: "Le competenze non evolvono alla velocità del mercato.",
+    subtitle: "AI, cybersecurity, dati e formazione stanno ridefinendo il modo di creare valore.\nLa vera sfida non è adottare nuove tecnologie, ma aiutare persone, processi e competenze a evolvere insieme.",
     image: "/images/evocons-hero.jpg",
     height: "large",
     className: "page-hero--home",
