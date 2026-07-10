@@ -1,6 +1,14 @@
 import { serviceAreas } from "../serviceAreas";
 
 export const servicesPage = {
+  seo: {
+    title: "Servizi | Evocons",
+    description:
+      "AI, Cybersecurity, Data Analytics, Academy e consulenza per accompagnare l'evoluzione delle organizzazioni.",
+    url: "https://www.evocons.it/servizi",
+    image: "https://www.evocons.it/images/og/og-home.jpg",
+  },
+
   hero: {
     eyebrow: "SERVIZI",
     title: "Percorsi per governare l’evoluzione digitale",

@@ -1,5 +1,4 @@
 User-agent: *
-
 Allow: /
 
-Sitemap: https://evocons.it/sitemap.xml
+Sitemap: https://www.evocons.it/sitemap.xml

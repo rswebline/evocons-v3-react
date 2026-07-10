@@ -1,4 +1,12 @@
 export const contactsPage = {
+  seo: {
+    title: "Contatti | Evocons",
+    description:
+      "Parliamo del tuo progetto di evoluzione digitale.",
+    url: "https://www.evocons.it/contatti",
+    image: "https://www.evocons.it/images/og/og-home.jpg",
+  },
+
   hero: {
     eyebrow: "CONTATTI",
     title: "Ogni trasformazione inizia da una conversazione.",

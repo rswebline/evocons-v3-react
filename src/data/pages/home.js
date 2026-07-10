@@ -1,4 +1,12 @@
 export const homePage = {
+  seo: {
+    title: "Evocons | AI, Cybersecurity, Data Analytics e Formazione",
+    description:
+      "Accompagniamo organizzazioni e professionisti nell'evoluzione digitale attraverso Intelligenza Artificiale, Cybersecurity, Data Analytics e percorsi di formazione.",
+    url: "https://www.evocons.it/",
+    image: "https://www.evocons.it/images/og/og-home.jpg",
+  },
+  
   hero: {
     eyebrow: "EVOCONS",
     title: "Le organizzazioni stanno cambiando più velocemente delle competenze necessarie per guidarle.",

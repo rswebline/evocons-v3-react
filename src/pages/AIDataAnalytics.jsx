@@ -9,10 +9,12 @@ import SectionNavigation from "../components/navigation/SectionNavigation";
 import { aiPage } from "../data/pages/ai";
 import QuotePanel from "../components/common/QuotePanel";
 import KnowledgeHub from "../components/common/KnowledgeHub";
+import SEO from "../components/common/SEO";
 
 function AIDataAnalytics() {
   return (
     <>
+      <SEO {...aiPage.seo} />
       <PageHero {...aiPage.hero} />
 
       <SectionNavigation

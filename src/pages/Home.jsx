@@ -5,23 +5,24 @@ import ImageText from "../components/common/ImageText";
 import ImageCardGrid from "../components/common/ImageCardGrid";
 import ServiceFlow from "../components/common/ServiceFlow";
 import CTASection from "../components/sections/CtaSection";
-
+import SEO from "../components/common/SEO";
 import { homePage } from "../data/pages/home";
 
 function Home() {
   return (
     <>
+      <SEO {...homePage.seo} />
       <PageHero {...homePage.hero} />
 
-<section className="home-intro">
-  <SectionIntro {...homePage.intro} />
-</section>
+      <section className="home-intro">
+        <SectionIntro {...homePage.intro} />
+      </section>
 
-<section className="section home-highlight">
-  <div className="container">
-    <ImageText variant="immersive" {...homePage.highlight} />
-  </div>
-</section>
+      <section className="section home-highlight">
+        <div className="container">
+          <ImageText variant="immersive" {...homePage.highlight} />
+        </div>
+      </section>
 
       <section className="section home-pillars">
         <div className="container">

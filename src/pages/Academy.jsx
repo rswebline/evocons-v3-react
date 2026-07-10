@@ -9,10 +9,13 @@ import SectionNavigation from "../components/navigation/SectionNavigation";
 import QuotePanel from "../components/common/QuotePanel";
 import KnowledgeHub from "../components/common/KnowledgeHub";
 import { academyPage } from "../data/pages/academy";
+import SEO from "../components/common/SEO";
+
 
 function Academy() {
   return (
     <>
+      <SEO {...academyPage.seo} />
       <PageHero {...academyPage.hero} />
 
       <SectionNavigation

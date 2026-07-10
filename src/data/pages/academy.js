@@ -3,6 +3,14 @@ import { serviceAreas } from "../serviceAreas";
 const academyArea = serviceAreas.find((area) => area.slug === "academy");
 
 export const academyPage = {
+  seo: {
+    title: "Academy | Evocons",
+    description:
+      "Workshop, formazione executive e percorsi di sviluppo delle competenze.",
+    url: "https://www.evocons.it/formazione",
+    image: "https://www.evocons.it/images/og/og-home.jpg",
+  },
+
   hero: {
     eyebrow: academyArea.eyebrow,
     title: "Formazione che genera competenze, non semplici attestati.",

@@ -10,10 +10,13 @@ import ImageText from "../components/common/ImageText";
 import ImageCardGrid from "../components/common/ImageCardGrid";
 import { servicesPage } from "../data/pages/services";
 import SectionIntro from "../components/common/SectionIntro";
+import SEO from "../components/common/SEO";
+
 
 function About() {
   return (
     <>
+      <SEO {...aboutPage.seo} />
       <PageHero {...aboutPage.hero} />
 
       <SectionNavigation

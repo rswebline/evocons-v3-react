@@ -5,12 +5,14 @@ import SectionHeader from "../components/common/SectionHeader";
 import FeatureGrid from "../components/common/FeatureGrid";
 import QuotePanel from "../components/common/QuotePanel";
 import CTASection from "../components/common/CTASection";
-
 import { contactsPage } from "../data/pages/contacts";
+import SEO from "../components/common/SEO";
+
 
 function Contacts() {
   return (
     <>
+      <SEO {...contactsPage.seo} />
       <PageHero {...contactsPage.hero} />
 
       <SectionNavigation

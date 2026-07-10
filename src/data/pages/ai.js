@@ -3,6 +3,14 @@ import { serviceAreas } from "../serviceAreas";
 const aiArea = serviceAreas.find((area) => area.slug === "ai-data-analytics");
 
 export const aiPage = {
+  seo: {
+    title: "Intelligenza Artificiale | Evocons",
+    description:
+      "Percorsi di adozione dell'Intelligenza Artificiale per organizzazioni e professionisti.",
+    url: "https://www.evocons.it/ai-data-analytics",
+    image: "https://www.evocons.it/images/og/og-home.jpg",
+  },
+  
   hero: {
     eyebrow: aiArea.eyebrow,
     title: "L'Intelligenza Artificiale sta cambiando il mercato. Ogni organizzazione esplora il proprio modo di evolvere.",

@@ -1,4 +1,12 @@
 export const insightPage = {
+  seo: {
+    title: "Insight | Evocons",
+    description:
+      "Approfondimenti, analisi e riflessioni sull'evoluzione digitale.",
+    url: "https://www.evocons.it/insight",
+    image: "https://www.evocons.it/images/og/og-home.jpg",
+  },
+
   hero: {
     eyebrow: "KNOWLEDGE HUB",
     title: "Conoscenza che diventa valore.",

@@ -9,10 +9,12 @@ import SectionNavigation from "../components/navigation/SectionNavigation";
 import QuotePanel from "../components/common/QuotePanel";
 import KnowledgeHub from "../components/common/KnowledgeHub";
 import { cybersecurityPage } from "../data/pages/cybersecurity";
+import SEO from "../components/common/SEO";
 
 function Cybersecurity() {
   return (
     <>
+      <SEO {...cybersecurityPage.seo} />
       <PageHero {...cybersecurityPage.hero} />
 
       <SectionNavigation

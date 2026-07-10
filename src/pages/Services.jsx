@@ -7,10 +7,12 @@ import SectionNavigation from "../components/navigation/SectionNavigation";
 import { servicesPage } from "../data/pages/services";
 import SectionIntro from "../components/common/SectionIntro";
 import ServiceFlow from "../components/common/ServiceFlow";
+import SEO from "../components/common/SEO";
 
 function Services() {
   return (
     <>
+      <SEO {...servicesPage.seo} />
       <PageHero {...servicesPage.hero} />
 
       <SectionNavigation

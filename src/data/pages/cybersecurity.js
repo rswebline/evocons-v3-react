@@ -5,6 +5,14 @@ const cybersecurityArea = serviceAreas.find(
 );
 
 export const cybersecurityPage = {
+  seo: {
+    title: "Cybersecurity | Evocons",
+    description:
+      "Strategie, consapevolezza e competenze per proteggere il patrimonio digitale.",
+    url: "https://www.evocons.it/cybersecurity",
+    image: "https://www.evocons.it/images/og/og-home.jpg",
+  },
+
   hero: {
     eyebrow: cybersecurityArea.eyebrow,
     title: "Cybersecurity come cultura, processo e responsabilità.",

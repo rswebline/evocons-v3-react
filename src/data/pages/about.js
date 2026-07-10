@@ -1,4 +1,12 @@
 export const aboutPage = {
+  seo: {
+      title: "Chi siamo | Evocons",
+      description:
+        "Conosci Evocons, il nostro approccio e la visione che guida i percorsi di trasformazione digitale.",
+      url: "https://www.evocons.it/chi-siamo",
+      image: "https://www.evocons.it/images/og/og-home.jpg",
+    },
+    
   hero: {
     eyebrow: "EVOCONS",
     title: "Una storia di evoluzione digitale",
