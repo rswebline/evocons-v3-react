@@ -335,3 +335,128 @@ dall'esperienza sia dai dati raccolti.
 
 Le versioni successive NON sostituiranno questa sezione ma la
 estenderanno, così da mantenere lo storico dell'evoluzione del progetto.
+
+---
+
+# Aggiornamento V0.2
+
+**Data:** 2026-07-16
+
+## Stato sintetico
+
+| Area                    | Stato |
+| ----------------------- | ----: |
+| Design System           |   95% |
+| Home                    |   95% |
+| Chi siamo               |   95% |
+| Servizi                 |   95% |
+| AI & Data Analytics     |   95% |
+| Cybersecurity           |   95% |
+| Academy                 |   95% |
+| Insight / Knowledge Hub |   75% |
+| Contatti                |   90% |
+| Responsive mobile       |   95% |
+| SEO tecnica             |  100% |
+| Accessibilità           |  100% |
+| Analytics               |   70% |
+| Deploy e tooling        |   95% |
+| Micro UX                |    0% |
+
+## Completato
+
+### Responsive e mobile
+
+- Navigazione mobile con menu hamburger.
+- Overlay e blocco dello scroll.
+- Hero con titoli specifici per dispositivi mobili.
+- Ottimizzazione di spaziature, card e navigazioni interne.
+- Verifica delle pagine principali su smartphone.
+
+### Performance e asset
+
+- Compressione delle immagini Hero.
+- Rimozione degli asset non utilizzati.
+- Lazy loading delle immagini non prioritarie.
+- Build Vite verificata.
+- Performance Lighthouse in produzione da approfondire con uno sprint dedicato.
+- LCP della Home identificato nella sezione Hero.
+- Evitate ottimizzazioni premature prive di benefici misurabili.
+
+### SEO tecnica
+
+- Componente centralizzato `SEO.jsx`.
+- Configurazione globale in `site.js`.
+- Metadati specifici per ogni pagina.
+- Canonical dinamici.
+- Open Graph.
+- Twitter Card.
+- Dati strutturati Schema.org.
+- `robots.txt`.
+- `sitemap.xml`.
+- Favicon e web manifest.
+- Google Search Console configurata.
+- Sitemap inviata.
+- Indicizzazione richiesta per tutte le pagine principali.
+- Lighthouse SEO: 100.
+
+### Accessibilità
+
+- Correzione dei contrasti WCAG.
+- Distinzione tra colori accent per sfondi chiari e scuri.
+- Correzione di pulsanti, eyebrow, card, ServiceFlow e CTA.
+- Verifica Lighthouse.
+- Lighthouse Accessibility: 100.
+- Lighthouse Best Practices: 100.
+
+### Analytics
+
+- Plausible attivo.
+- Google Search Console attiva.
+- GA4 non introdotto perché attualmente ridondante.
+- GA4 rimane in backlog per campagne, funnel ed eventi avanzati.
+
+### Tooling
+
+- `tools/gitpush.sh` per build, commit e push GitHub.
+- `tools/deploy.sh` per build e deploy su VPS.
+- Deploy tramite `rsync` verso `/var/www/evocons.it/`.
+- Verifica automatica della risposta HTTP del sito.
+
+## Decisioni
+
+### Analytics
+
+Plausible e Search Console coprono le esigenze attuali.
+
+GA4 sarà introdotto quando saranno necessari:
+
+- campagne Google Ads;
+- funnel avanzati;
+- eventi personalizzati;
+- remarketing;
+- integrazioni con l'ecosistema Google.
+
+### Performance
+
+La Performance Lighthouse richiede un eventuale sprint dedicato.
+
+Possibili interventi futuri:
+
+- prerendering delle route;
+- code splitting;
+- CSS critico;
+- revisione del rendering iniziale;
+- eventuale evoluzione SSR/SSG.
+
+Non saranno introdotte modifiche architetturali all'interno degli sprint di rifinitura.
+
+## Prossimo sprint
+
+### Sprint 5.7 – Micro UX
+
+- animazioni leggere;
+- hover uniformi;
+- transizioni coerenti;
+- feedback dei pulsanti;
+- scroll behavior;
+- rispetto di `prefers-reduced-motion`.

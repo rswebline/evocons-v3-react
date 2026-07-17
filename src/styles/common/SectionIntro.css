@@ -11,7 +11,7 @@
 .section-intro__eyebrow {
   display: block;
   margin-bottom: 1rem;
-  color: var(--color-accent);
+  color: var(--color-brand);
   font-size: 0.95rem;
   font-weight: 700;
   letter-spacing: 0.16em;

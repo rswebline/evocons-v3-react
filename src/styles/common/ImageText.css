@@ -85,6 +85,10 @@
   text-transform: uppercase;
 }
 
+.image-text--immersive .image-text__eyebrow {
+  color: var(--color-brand);
+}
+
 .image-text__content h2 {
   margin: 0;
   color: #071326;
@@ -104,15 +108,15 @@
   margin-top: 36px;
   padding: 14px 24px;
   border-radius: 10px;
-  background: #1686d9;
-  color: #ffffff;
+  background: var(--color-action);
+  color: var(--color-white);
   font-weight: 800;
   text-decoration: none;
 }
 
 .image-text__button:hover {
-  background: #ffffff;
-  color: #071326;
+  background: var(--color-white);
+  color: var(--color-primary);
 }
 
 /* RESPONSIVE */

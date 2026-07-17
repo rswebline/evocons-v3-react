@@ -101,3 +101,15 @@ Ogni pagina deve rispondere a una domanda.
 Non descrivere un servizio.
 
 Accompagnare il visitatore verso una nuova consapevolezza.
+
+---
+
+# Regole di accessibilità cromatica
+
+## Accent su sfondi chiari
+
+Utilizzare:
+
+```css
+var(--color-accent)
+```

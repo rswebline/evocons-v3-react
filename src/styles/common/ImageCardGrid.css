@@ -50,7 +50,7 @@
 
 .image-card__content p {
   margin: 0 0 12px;
-  color: var(--color-accent);
+  color: var(--color-brand);
   font-size: 0.84rem;
   font-weight: 800;
   letter-spacing: 0.13em;
@@ -68,7 +68,7 @@
 .image-card__content span {
   align-self: flex-end;
   margin-top: auto;
-  color: var(--color-accent);
+  color: var(--color-brand);
   font-size: 2rem;
   line-height: 1;
   transition: transform 0.2s ease;

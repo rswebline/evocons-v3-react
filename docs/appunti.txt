@@ -1,0 +1,15 @@
+Cosa ti dà Search Console
+query con cui ti trovano;
+impression;
+clic;
+posizione media;
+copertura dell'indice;
+problemi di scansione.
+
+Cosa ti dà Plausible
+visitatori;
+pagine viste;
+sorgenti di traffico;
+dispositivi;
+paesi;
+conversioni semplici.
