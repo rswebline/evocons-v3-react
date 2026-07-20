@@ -4,6 +4,7 @@
 @import "./layout.css";
 @import "./components.css";
 @import "./sections.css";
+@import "./insight.css";
 
 @import "./common/PageHero.css";
 @import "./navigation/SectionNavigation.css";

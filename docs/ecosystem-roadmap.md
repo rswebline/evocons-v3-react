@@ -1,3 +1,29 @@
+# Project Manifest
+
+Repository:
+https://github.com/rswebline/evocons-v3-react
+
+Stack
+
+- React
+- Vite
+- JavaScript
+- CSS
+- Nginx
+- VPS Hetzner
+
+Documenti di riferimento
+
+1. ecosystem-roadmap.md
+2. design-system.md
+3. milestone attiva
+
+Regola fondamentale
+
+Ogni scelta deve massimizzare il rapporto:
+
+Valore prodotto / Tempo investito.
+
 # Evocons Ecosystem Roadmap
 
 > Documento strategico del progetto Evocons.
@@ -294,3 +320,9 @@ Il documento rappresenta il punto di allineamento tra:
 - criteri decisionali.
 
 Prima di pianificare nuove attività verrà verificato se esse sono coerenti con questa roadmap.
+
+Le future evoluzioni non saranno guidate principalmente dalla tecnologia
+ma dal valore che il sito sarà in grado di generare.
+
+Non ricerca la perfezione.
+Ricerca il miglior equilibrio possibile tra qualità, tempo e valore.
