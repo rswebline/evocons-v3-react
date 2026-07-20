@@ -1,19 +1,22 @@
 import { serviceAreas } from "../serviceAreas";
 
-const academyArea = serviceAreas.find((area) => area.slug === "academy");
+const academyArea = serviceAreas.find(
+  (area) => area.slug === "academy"
+);
 
 export const academyPage = {
   seo: {
     title: "Academy | Evocons",
     description:
-      "Workshop, formazione executive e percorsi di sviluppo delle competenze.",
+      "Workshop, formazione executive e percorsi esperienziali per sviluppare competenze digitali, organizzative e manageriali.",
     url: "https://www.evocons.it/formazione",
     image: "https://www.evocons.it/images/og/og-home.jpg",
   },
 
   hero: {
     eyebrow: academyArea.eyebrow,
-    title: "Formazione che genera competenze, non semplici attestati.",
+    title:
+      "Formazione che genera competenze, non semplici attestati.",
     mobileTitle: "Competenze per governare l’innovazione",
     subtitle:
       "Workshop, Academy e percorsi esperienziali per accompagnare persone e organizzazioni nello sviluppo delle competenze digitali.",
@@ -24,9 +27,18 @@ export const academyPage = {
   navigation: {
     currentLabel: "Academy",
     items: [
-      { label: "Servizi", path: "/servizi" },
-      { label: "AI e Data Analytics", path: "/ai-data-analytics" },
-      { label: "Cybersecurity", path: "/cybersecurity" },
+      {
+        label: "Servizi",
+        path: "/servizi",
+      },
+      {
+        label: "AI e Data Analytics",
+        path: "/ai-data-analytics",
+      },
+      {
+        label: "Cybersecurity",
+        path: "/cybersecurity",
+      },
     ],
   },
 
@@ -34,14 +46,20 @@ export const academyPage = {
     eyebrow: "Academy",
     title: "Imparare significa cambiare il modo di lavorare.",
     text:
-      "Ogni percorso formativo nasce da obiettivi concreti. La tecnologia diventa utile quando modifica comportamenti, sviluppa competenze e rende le persone più autonome nelle decisioni.",
+      "Ogni percorso formativo nasce da obiettivi concreti. " +
+      "La tecnologia diventa utile quando modifica comportamenti, " +
+      "sviluppa competenze e rende le persone più autonome nelle decisioni.",
   },
 
   highlight: {
     eyebrow: "Approccio",
-    title: "Non progettiamo corsi.\nProgettiamo esperienze di apprendimento.",
+    title:
+      "Non progettiamo corsi.\n" +
+      "Progettiamo esperienze di apprendimento.",
     text:
-      "La formazione Evocons integra consulenza, casi reali, laboratori e strumenti operativi. L'obiettivo non è trasferire nozioni, ma costruire competenze utilizzabili nel lavoro quotidiano.",
+      "La formazione Evocons integra consulenza, casi reali, " +
+      "laboratori e strumenti operativi. L’obiettivo non è trasferire " +
+      "nozioni, ma costruire competenze utilizzabili nel lavoro quotidiano.",
     image: academyArea.heroImage,
     imageAlt: academyArea.imageAlt,
     buttonLabel: "Scopri il metodo",
@@ -49,7 +67,10 @@ export const academyPage = {
   },
 
   quote: {
-    quote: "La conoscenza\nnon crea valore.\n\nLa competenza sì.",
+    quote:
+      "La conoscenza\n" +
+      "non crea valore.\n\n" +
+      "La competenza sì.",
     author: "EVOCONS VIEW",
   },
 
@@ -57,27 +78,31 @@ export const academyPage = {
     eyebrow: "Cosa facciamo",
     title: "Percorsi formativi progettati intorno alle persone",
     subtitle:
-      "Costruiamo esperienze di apprendimento che integrano contenuti, pratica, confronto e applicazione operativa.",
+      "Costruiamo esperienze di apprendimento che integrano contenuti, " +
+      "pratica, confronto e applicazione operativa.",
   },
 
   features: [
     {
-      icon: "🎓",
+      icon: "◉",
       title: "Workshop",
       text:
-        "Sessioni brevi e operative per introdurre temi, strumenti e nuovi modi di lavorare.",
+        "Sessioni brevi e operative per introdurre temi, strumenti " +
+        "e nuovi modi di lavorare.",
     },
     {
-      icon: "🧭",
+      icon: "▦",
       title: "Academy",
       text:
-        "Percorsi strutturati per sviluppare competenze nel tempo e accompagnare gruppi di lavoro eterogenei.",
+        "Percorsi strutturati per sviluppare competenze nel tempo " +
+        "e accompagnare gruppi di lavoro eterogenei.",
     },
     {
-      icon: "🛠️",
+      icon: "↗",
       title: "Learning Experience",
       text:
-        "Laboratori, casi reali e attività esperienziali per trasformare la conoscenza in competenza agita.",
+        "Laboratori, casi reali e attività esperienziali per trasformare " +
+        "la conoscenza in competenza applicata.",
     },
   ],
 
@@ -85,29 +110,35 @@ export const academyPage = {
     eyebrow: "Percorso",
     title: "Come progettiamo la formazione",
     subtitle:
-      "Ogni percorso nasce da un obiettivo e viene costruito per produrre apprendimento trasferibile nel lavoro quotidiano.",
+      "Ogni percorso nasce da un obiettivo e viene costruito " +
+      "per produrre apprendimento trasferibile nel lavoro quotidiano.",
   },
 
   flow: [
     {
       title: "Ascolto",
-      text: "Comprendiamo obiettivi, destinatari, contesto e bisogni formativi.",
+      text:
+        "Comprendiamo obiettivi, destinatari, contesto e bisogni formativi.",
     },
     {
       title: "Progettazione",
-      text: "Costruiamo il percorso più adatto per contenuti, tempi e modalità.",
+      text:
+        "Costruiamo il percorso più adatto per contenuti, tempi e modalità.",
     },
     {
       title: "Esperienza",
-      text: "Attiviamo workshop, laboratori e momenti di confronto guidato.",
+      text:
+        "Attiviamo workshop, laboratori e momenti di confronto guidato.",
     },
     {
       title: "Applicazione",
-      text: "Colleghiamo l’apprendimento a casi, processi e attività reali.",
+      text:
+        "Colleghiamo l’apprendimento a casi, processi e attività reali.",
     },
     {
       title: "Consolidamento",
-      text: "Favoriamo il trasferimento delle competenze e il miglioramento continuo.",
+      text:
+        "Favoriamo il trasferimento delle competenze e il miglioramento continuo.",
     },
   ],
 
@@ -116,32 +147,37 @@ export const academyPage = {
       eyebrow: "Knowledge Hub",
       title: "Approfondimenti per progettare apprendimento",
       subtitle:
-        "Insight, guide e percorsi per costruire formazione utile, concreta e collegata ai cambiamenti dell’organizzazione.",
+        "Insight, guide e percorsi per costruire formazione utile, " +
+        "concreta e collegata ai cambiamenti dell’organizzazione.",
     },
+
     items: [
       {
         eyebrow: "Workshop",
         title:
           "Come progettare un workshop efficace: obiettivi, ritmo e applicazione pratica.",
-        previewImage: academyArea.previewImage,
-        imageAlt: academyArea.imageAlt,
-        path: "/formazione",
+        previewImage: "/images/academy/workshop.jpg",
+        imageAlt:
+          "Progettazione e conduzione di un workshop aziendale",
+        path: "/insight",
       },
       {
         eyebrow: "Academy",
         title:
           "Perché un’Academy aziendale deve sviluppare comportamenti, non solo conoscenze.",
-        previewImage: academyArea.previewImage,
-        imageAlt: academyArea.imageAlt,
-        path: "/formazione",
+        previewImage: "/images/academy/academy.jpg",
+        imageAlt:
+          "Percorso Academy per lo sviluppo delle competenze",
+        path: "/insight",
       },
       {
         eyebrow: "Metodo",
         title:
           "Dal contenuto all’esperienza: progettare percorsi formativi che restano.",
-        previewImage: academyArea.previewImage,
-        imageAlt: academyArea.imageAlt,
-        path: "/formazione",
+        previewImage: "/images/academy/method.jpg",
+        imageAlt:
+          "Esperienza di apprendimento e formazione aziendale",
+        path: "/insight",
       },
     ],
   },
@@ -150,7 +186,9 @@ export const academyPage = {
     eyebrow: "Academy",
     title: "Costruiamo insieme il tuo percorso formativo.",
     text:
-      "Possiamo partire da un confronto per progettare workshop, Academy o percorsi di sviluppo coerenti con i bisogni della tua organizzazione.",
+      "Possiamo partire da un confronto per progettare workshop, " +
+      "Academy o percorsi di sviluppo coerenti con i bisogni " +
+      "della tua organizzazione.",
     buttonLabel: "Contattaci",
     buttonPath: "/contatti",
   },
