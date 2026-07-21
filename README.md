@@ -1,30 +1,26 @@
-# React + Vite
+# Sprint A — EV-001 AI Literacy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+File aggiornati:
 
-Currently, two official plugins are available:
+- `src/data/pages/aiLiteracy.js`
+- `src/pages/AILiteracyLanding.jsx`
+- `src/styles/pages/ai-literacy.css`
+- `public/sitemap.xml`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Asset aggiunto:
 
-## React Compiler
+- `public/images/landing/evocons-view/ai-literacy-hero-ally.jpg`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Modifiche:
 
-## Expanding the ESLint configuration
+1. La sezione “Il problema” è diventata “L’esigenza”.
+2. Testi aggiornati con un tono orientato a maturità, valore e governance.
+3. Classi React/CSS rinominate da `problem` a `need`.
+4. Hero collegata all’immagine canonica di Ally.
+5. Nuova URL inserita nella sitemap:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   `https://www.evocons.it/evocons-view/ai-literacy`
 
-# Evocons v3
+Rotta React già presente:
 
-Nuova versione del sito evocons.it sviluppata con:
-
-- React
-- Vite
-- JavaScript
-
-Obiettivi:
-- architettura modulare
-- componenti riutilizzabili
-- integrazione futura con backend e database
-- pubblicazione su VPS Hetzner
+`/evocons-view/ai-literacy`

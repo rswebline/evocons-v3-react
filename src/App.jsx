@@ -9,6 +9,7 @@ import Academy from "./pages/Academy";
 import Contacts from "./pages/Contacts";
 import DesignSystem from "./pages/DesignSystem";
 import Insight from "./pages/Insight";
+import AILiteracyLanding from "./pages/AILiteracyLanding";
 import ScrollToHash from "./components/common/ScrollToHash";
 
 function App() {
@@ -25,6 +26,10 @@ function App() {
         <Route path="/contatti" element={<Contacts />} />
         <Route path="/design-system" element={<DesignSystem />} />
         <Route path="/insight" element={<Insight />} />
+        <Route
+          path="/evocons-view/ai-literacy"
+          element={<AILiteracyLanding />}
+        />
       </Routes>
     </MainLayout>
   );
