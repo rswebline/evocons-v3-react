@@ -11,6 +11,7 @@ import DesignSystem from "./pages/DesignSystem";
 import Insight from "./pages/Insight";
 import AILiteracyLanding from "./pages/AILiteracyLanding";
 import ScrollToHash from "./components/common/ScrollToHash";
+import AILiteracy from "./pages/AILiteracy";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           path="/evocons-view/ai-literacy"
           element={<AILiteracyLanding />}
         />
+        <Route path="/insight/ai-literacy" element={<AILiteracy />} />
       </Routes>
     </MainLayout>
   );

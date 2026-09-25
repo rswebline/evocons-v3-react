@@ -1,0 +1,16 @@
+EV-001 AI Literacy nelle organizzazioni. 
+La nostra stella polare è chiara. Non vogliamo spiegare l'intelligenza artificiale, 
+vogliamo aiutare persone e organizzazioni a comprendere come creare valore attraverso l'AI. 
+
+La missione è accompagnare il lettore in un percorso di evoluzione 
+da utilizzare l'AI, a comprenderla, fino ad arrivare a creare valore. 
+
+Il White Paper sarà costruito su tre blocchi. 
+1. Il primo serve a creare consapevolezza del cambiamento e a mettere in discussione alcune false sicurezze. 
+2. Il secondo presenterà il modello Evocons per sviluppare l'AI Literacy attraverso persone, processi e tecnologia. 
+3. Il terzo offrirà al lettore una strada praticabile fatta di autovalutazione e roadmap. 
+
+** Abbiamo condiviso alcune decisioni di metodo: lavoriamo in modo top-down prima si progetta e poi si scrive, e ogni blocco parte da una domanda che prepara naturalmente il passo successivo. Alcuni temi emersi li teniamo per ora in un'area di parcheggio, pronti da sviluppare quando sarà il momento. ad esempio l'idea che le risposte stiano diventando una commodity e che le domande siano la vera competenza. In questo modo teniamo il pensiero vivo senza appesantire la struttura. ** 
+Direi di procedere così, concentrandoci sulle idee e non sulla sintassi.
+
+Al momento siamo concentrati sul primo blocco, mentre gli altri due devono ancora essere progettati. 
