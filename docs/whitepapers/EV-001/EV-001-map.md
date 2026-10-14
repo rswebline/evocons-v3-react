@@ -798,3 +798,27 @@ e lascia deliberatamente aperta la domanda successiva:
 > **«Quanto è realmente pronta la nostra organizzazione?»**
 
 Quella domanda appartiene a **EV-002 — AI Readiness**.
+
+
+-----
+
+BLOCCO 1 — 
+Un mondo pieno di risposte
+Il paradosso dell'abbondanza
+La competenza si sposta
+Quando saper usare non basta
+
+
+BLOCCO 2 — COME? Dal comprendere al costruire AI Literacy
+
+La capacità che mancava: AI Literacy
+Dal singolo all'organizzazione
+Persone, processi e tecnologia: un unico sistema
+Dalla comprensione all'evoluzione
+
+BLOCCO 3 — ORA COSA? Dalla consapevolezza all'azione
+
+Dove siamo oggi
+Dalla fotografia alla diagnosi
+Scegliere il prossimo passo
+Dalla diagnosi all'azione
